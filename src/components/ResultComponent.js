@@ -1,10 +1,7 @@
-import React, {Component} from 'react';
+import React, { useState } from 'react';
 
-class ResultComponent extends Component {
-
-
-    render() {
-        let {result} = this.props;
+function App() {
+        let {result} = props;
         return (
             <div className="result">
                 <p>{result}</p>
@@ -12,7 +9,6 @@ class ResultComponent extends Component {
     )
         ;
     }
-}
 
 
 export default ResultComponent;
