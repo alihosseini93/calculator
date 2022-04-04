@@ -29,7 +29,7 @@ function App() {
                 <button name="." const onClick={e => props.onClick(e.target.name)}>.</button>
                 <button name="0" const onClick={e => props.onClick(e.target.name)}>0</button>
                 <button name="=" const onClick={e => props.onClick(e.target.name)}>=</button>
-                <button name="/" const onClick={e => props.onClick(e.target.name)}>÷</button><br/>
+                <button name="/" const onClick={e => props.onClick(e.target.name)}>รท</button><br/>
             </div>
         );
 }
